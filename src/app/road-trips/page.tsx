@@ -45,7 +45,7 @@ export default function RoadTripsPage() {
                     Route 3: Alhambra with Sierra Nevada backdrop */}
                 <div className="text-center text-sand-400">
                   <div className="text-6xl mb-3">🗺️</div>
-                  <p className="font-body text-xs uppercase tracking-widest">{trip.title}</p>
+                  <p className="font-body text-xs uppercase tracking-widest">{trip.name}</p>
                   <p className="font-body text-xs text-sand-300 mt-1">Photo placeholder</p>
                 </div>
                 <div className="absolute top-4 left-4 bg-charcoal/80 text-cream px-3 py-1">
@@ -60,7 +60,7 @@ export default function RoadTripsPage() {
                   <span className="w-4 h-px bg-sand-300" />
                   <span className="font-body text-xs text-charcoal/40 tracking-widest uppercase">{trip.distance}</span>
                 </div>
-                <h2 className="font-display text-3xl lg:text-4xl font-light text-charcoal mb-1">{trip.title}</h2>
+                <h2 className="font-display text-3xl lg:text-4xl font-light text-charcoal mb-1">{trip.name}</h2>
                 <p className="font-body text-sm uppercase tracking-widest text-olive-600 mb-4">{trip.subtitle}</p>
                 <p className="font-body text-sm text-charcoal/70 leading-relaxed mb-5">{trip.description}</p>
 
