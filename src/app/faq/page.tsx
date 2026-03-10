@@ -29,11 +29,11 @@ export default function FaqPage() {
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-sand-50 border border-sand-200 open:bg-white open:border-sand-300">
                 <summary className="flex items-start justify-between px-6 py-5 cursor-pointer list-none gap-4">
-                  <span className="font-display text-xl font-light text-charcoal leading-snug">{faq.q}</span>
+                  <span className="font-display text-xl font-light text-charcoal leading-snug">{faq.question}</span>
                   <span className="text-terra-500 font-body text-xl group-open:rotate-45 transition-transform mt-0.5 shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-6">
-                  <p className="font-body text-sm text-charcoal/70 leading-relaxed">{faq.a}</p>
+                  <p className="font-body text-sm text-charcoal/70 leading-relaxed">{faq.answer}</p>
                 </div>
               </details>
             ))}
